@@ -13,6 +13,8 @@ The original post asks whether someone who enjoys imagining movies and wants to 
 
 **Original Reddit discussion:** [Open the Reddit thread](https://www.reddit.com/r/scriptwriting/comments/1x0hbzh/i_dont_really_want_to_be_a_screenwriter_but_maybe/)
 
+**Original source:** [Click here to open the original Reddit discussion](https://www.reddit.com/r/scriptwriting/comments/1x0hbzh/i_dont_really_want_to_be_a_screenwriter_but_maybe/)
+
 ## 1. Do I need to want a screenwriting career to write screenplays?
 
 No. A creative practice does not have to become a profession to be worthwhile. You can keep a regular job, write in your spare time, and treat screenwriting as a hobby. The thread’s replies distinguish the enjoyment of creating from the pressures that come with trying to earn a living in a competitive industry.
@@ -113,3 +115,5 @@ Begin with one scene. Let the practice teach you what you want from it.
 This guide expands and organizes themes from the linked Reddit thread. It is a paraphrased practical guide, not a verbatim transcript.
 
 **Click to revisit the original thread:** [Open the Reddit thread](https://www.reddit.com/r/scriptwriting/comments/1x0hbzh/i_dont_really_want_to_be_a_screenwriter_but_maybe/)
+
+**Original source:** [Click here to open the original Reddit discussion](https://www.reddit.com/r/scriptwriting/comments/1x0hbzh/i_dont_really_want_to_be_a_screenwriter_but_maybe/)

@@ -16,5 +16,5 @@ Where stories start: premises, series ideas, and how to turn a spark into someth
 - [Screenwriting as a Hobby]({{< relref "/ideas/screenwriting-as-a-hobby.md" >}})  
   You don't need a career goal to write screenplays: start small, use free tools, and follow a gentle first-week plan.
 
-- [How to Motivate Myself to Write]({{< relref "/ideas/how-to-motivate-myself-to-write.md" >}})  
-  Practical ways to start, keep going and recover momentum, including a simple 20-minute routine.
+- [Infusing Character Traits into Dialogue]({{< relref "/ideas/infusing-character-traits-into-dialogue.md" >}})  
+  Make characters sound distinct: voice profiles, rhythm, tactics, subtext, and a dialogue revision pass.
