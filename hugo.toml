@@ -1,0 +1,36 @@
+baseURL = "/"
+
+# This is a "one page" website, so we do not need these kinds of pages
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+defaultContentLanguage = "en"
+
+theme = "hugo-scroll"
+
+# The browser tab name
+title = "Scriptwriting - Notes & Journal"
+
+enableEmoji = false
+
+[params]
+    favicon = "images/favicon.png"
+    images = ["images/cover-image.jpg"]
+    title_guard = true
+    title = "Scriptwriting - Notes & Journal"
+    description = "A blog that has the most interesting questions about how to write scripts or screenplays."
+    language_menu = false
+    show_current_lang = false
+    hidedesignbyline = false
+    invertSectionColors = false
+    image_options = "webp q90 lanczos photo"
+    combine_page_and_site_title = false
+
+    [params.footer]
+    showContactIcons = true
+    showFooterLinks = false
+
+[languages]
+  [languages.en]
+    weight = 10
+    languageName = "English"
+    contentDir = "content/en"
