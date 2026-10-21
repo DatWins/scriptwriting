@@ -1,8 +1,19 @@
 {{ define "main" }}
+  {{ $headless := site.Home.GetPage "./homepage" }}
+  {{ $sections := where ($headless.Resources.ByType "page") "Draft" "==" false }}
+  {{ $current := anchorize (or .Params.category "ideas") }}
+  <!-- Same left side menu as the home page (top menu on phones and tablets) -->
+  <div class="fixed-nav on-post">
+    {{ range $sections }}
+      {{ $t := .Title }}{{ with .Params.navigation_menu_title }}{{ $t = . }}{{ end }}
+      <a class="fn-item{{ if eq (anchorize $t) $current }} active{{ end }}" href="{{ site.Home.RelPermalink }}#{{ anchorize $t }}">{{ $t | safeHTML }}</a>
+    {{ end }}
+    <a class="fn-item" href="{{ site.Home.RelPermalink }}">Home</a>
+  </div>
   <main class="content page-template page-{{ .Slug }}">
     <article class="post page">
       <header class="post-header">
-        <a id="back-to-main-page" href="{{ site.Home.RelPermalink }}#{{ anchorize (or .Params.category "ideas") }}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{ site.Title }}</a>
+        <a id="back-to-main-page" href="{{ site.Home.RelPermalink }}#{{ $current }}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{ site.Title }}</a>
       </header>
       <h1 class="post-title">{{ .Title }}</h1>
       <section class="post-content">

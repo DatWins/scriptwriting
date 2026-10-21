@@ -54,6 +54,9 @@
      --ul-li-icon: fa-dashcube;     /* this sets fa-dashcube as list icon */
      --ul-li-icon: ;                /* this sets the default html list icon */
 }
+/* side menu on single write-up pages (the theme script only shows it on the home page) */
+.fixed-nav.on-post { display: flex; }
+@media only screen and (max-width: 1130px) { .page-template { padding-top: 64px; } }
 /* cover arrow: gold so it shows on the dark cover */
 #header-arrow, #header-arrow i { color: #f0714f !important; }
 /* chess site: smaller project headings with space above them */
